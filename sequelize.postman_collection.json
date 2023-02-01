@@ -1,0 +1,304 @@
+{
+	"id": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+	"name": "sequelize",
+	"description": "",
+	"order": [
+		"8329d2b3-b40f-06ca-ad6f-6205c406f57f",
+		"aa1f0e6f-6a30-1e37-3fd2-74eba7ad4859",
+		"0b9ad4af-8335-be0c-508f-d3d07d2f827e",
+		"aff92ad7-0f43-9e9c-ad16-442a5e7175b6",
+		"9f1ac271-a46f-84f5-d350-0cbd2edbcd4e",
+		"7d1e7935-398b-5472-e9a0-6236a4586bf0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1675079227506,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0b9ad4af-8335-be0c-508f-d3d07d2f827e",
+			"headers": "email: pareshrathod0112@gmail.com\n",
+			"headerData": [
+				{
+					"key": "email",
+					"value": "pareshrathod0112@gmail.com",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/viewProfile",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1675147773198,
+			"name": "http://localhost:9000/viewProfile",
+			"description": "",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"responses": []
+		},
+		{
+			"id": "7d1e7935-398b-5472-e9a0-6236a4586bf0",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhcmVzaHJhdGhvZDAxMTJAZ21haWwuY29tIiwiaWF0IjoxNjc1MTYyNDAzLCJleHAiOjE2NzUxNjMzMDN9.dfgRqnwFMCzU0wNLBnpL7ZDoUrsmR_sseHUJVbROWLQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBhcmVzaHJhdGhvZDAxMTJAZ21haWwuY29tIiwiaWF0IjoxNjc1MTYyNDAzLCJleHAiOjE2NzUxNjMzMDN9.dfgRqnwFMCzU0wNLBnpL7ZDoUrsmR_sseHUJVbROWLQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/updateProfile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"data": [
+				{
+					"key": "name",
+					"value": "cronix",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "prashrathore007@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "uploadImage",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:9000/updateProfile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675162579676,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8329d2b3-b40f-06ca-ad6f-6205c406f57f",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:9000/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "ajay",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "pareshrathod0112@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "paresh@6514",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "uploadImage",
+					"value": "Screenshot (9).png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "confirmpassword",
+					"value": "paresh@6514",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1675169310896,
+			"name": "http://localhost:9000/register",
+			"description": "",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"responses": []
+		},
+		{
+			"id": "9f1ac271-a46f-84f5-d350-0cbd2edbcd4e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9000/resetPassword",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"data": [
+				{
+					"key": "email",
+					"value": "pareshrathod0112@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "paresh@6514",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:9000/resetPassword",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675151837839,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aa1f0e6f-6a30-1e37-3fd2-74eba7ad4859",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9000/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1675162564938,
+			"name": "http://localhost:9000/login",
+			"description": "",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\":\"pareshrathod0112@gmail.com\",\n\t\"password\":\"paresh@6514\"\n}"
+		},
+		{
+			"id": "aff92ad7-0f43-9e9c-ad16-442a5e7175b6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9000/updateProfile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "paresh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "pareshrathod0112@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "male",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "uploadImage",
+					"value": "Screenshot (7).png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1675151826500,
+			"name": "http://localhost:9000/updateProfile",
+			"description": "",
+			"collectionId": "eb7bf163-f519-540e-78a8-86ebcba7a2b8",
+			"responses": []
+		}
+	]
+}
